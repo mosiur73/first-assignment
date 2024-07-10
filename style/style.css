@@ -16,6 +16,7 @@ font-family: Azeret Mono;
 font-size: 16px;
 font-weight: 300;
 text-align: center;
+padding-bottom: 16px;
 }
 
 
@@ -66,7 +67,12 @@ max-width: 1100px;
 margin: 0 auto;
 margin-top: 150px;
 border-radius: 16px;
-background: rgba(13, 19, 33, 0.02);
+padding: 10px;
+margin-bottom: 150px;
+}
+.secend-banner{
+    background: rgba(13, 19, 33, 0.02);
+border-radius: 16px;
 padding: 10px;
 margin-bottom: 150px;
 }
@@ -114,3 +120,63 @@ margin-bottom: 20px;
 
 /* video section design************** */
 
+.video{
+    text-align: center;
+    
+}
+.youtube{
+border-radius: 16px;
+}
+.video-description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+/* target section design*********** */
+.target{
+    margin-top: 150px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+
+.skill-1{
+    padding: 30px;
+    border-radius: 16px;
+    background:lightgreen;
+    
+}
+.skill-2{
+    padding: 30px;
+    border-radius: 16px;
+    background: papayawhip;
+    
+}
+.skill-3{
+    padding: 30px;
+    border-radius: 16px;
+    background: lightblue;
+    
+}
+.skill-description{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+text-align: left;
+padding-bottom: 20px;
+}
+.skill-title{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+text-align: left;
+padding-bottom: 10px;
+padding-top: 12px;
+}
